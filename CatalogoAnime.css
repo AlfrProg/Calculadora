@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #3F0095;
+}
+
+.Menu {
+    background: white;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 25px;
+}
+
+#text {
+    text-align: right;
+}
+
+#text a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 16px;
+    margin: 100px 10px;
+    border-radius: 5px;
+}
+
+#btnTESTE {
+    color: black;
+    background: #FFC52F;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 16px;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.img-container,
+.img-container2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #3F0095;
+    margin-top: 70px;
+}
+
+.texto {
+    position: absolute;
+    top: -45px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.imagem {
+    border-radius: 10%;
+    margin: 10px;
+    width: 330px;
+    height: 420px;
+}
+
+.avisos {
+    margin-top: 100px;
+
+
+    background: black;
+}
+
+
+.informacoes a {
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 16px;
+    margin: 100px 10px;
+    border-radius: 5px;
+    display: block;
+    margin-top: -100px;
+}
+
+
+.form {
+
+    padding: 100px;
+}
+
+
+h1 {
+    color: #3F0095;
+    padding-left: 350px;
+    font-size: 85px;
+    margin-top: -400px;
+}
+
+#Formulario {
+    padding-left: 500px;
+}
+
+.input {
+    border-radius: 18px;
+    padding: 20px 20px 20px 20px;
+    background: white;
+
+    border: #3F0095 solid 2.5px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background: #3F0095;
+    border: yellow solid 2px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 18px;
+
+
+
+}
