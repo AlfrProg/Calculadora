@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Jogo Da Velha.css">
+    <script src="https://kit.fontawesome.com/35a3b74574.js" crossorigin="anonymous"></script>
+
+    <title>Jogo Da Velha</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JOGO DA VELHA</h1>
+        <table class="jogo" border="2">
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+        </table>
+        <div id="resultado"></div>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <footer>
+        <div class="Meus dados">
+            <a href="https://github.com/AlfrProg" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="Jogo Da Velha.js"></script>
+</body>
+
+</html>

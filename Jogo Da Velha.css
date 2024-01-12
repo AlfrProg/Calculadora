@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 1000px;
+    padding: 40px;
+    text-align: center;
+    background: #F7DB97;
+    border-radius: 5px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    background-color: #2E2B96;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    background-color: #2E2B96;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.jogo {
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #2E2B96;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #2E2B96;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: #2E2B96;
+    margin-top: 60px;
+    background: #F7DB97;
+    padding: 30px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #2E2B96;
+    font-size: 50px;
+
+
+}
